@@ -12,4 +12,6 @@ internal interface IBibliotecaService
     void CadastrarCliente(Cliente cliente);
     void RealizarEmprestimo(int clienteId, int livroId);
     void RegistrarDevolucao(int emprestimoId);
+    void RegistrarCliente(string nome, string cpf);
+    void RegistrarLivro(string titulo, string autor, int quantidade);
 }

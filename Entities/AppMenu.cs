@@ -5,6 +5,7 @@ namespace ConsoleApp1;
 internal class AppMenu
 {
     private readonly IBibliotecaService _biblioteca;
+
     public AppMenu(IBibliotecaService biblioteca)
     {
         _biblioteca = biblioteca;
@@ -24,6 +25,8 @@ internal class AppMenu
             Console.WriteLine("3 - Listar empréstimos");
             Console.WriteLine("4 - Realizar empréstimo");
             Console.WriteLine("5 - Registrar devolução");
+            Console.WriteLine("6 - Cadastrar Cliente");
+            Console.WriteLine("7 - Cadastrar Livro");
             Console.WriteLine("0 - Sair");
             Console.WriteLine();
 
@@ -60,6 +63,13 @@ internal class AppMenu
                         RegistrarDevolucao();
                         break;
 
+                    case 6:
+                        DadosParaCadastroCliente();
+                        break;
+
+                    case 7:
+                        DadosParaCadastroLivro();
+                        break;
                     case 0:
                         executando = false;
                         break;
@@ -165,5 +175,48 @@ internal class AppMenu
         Console.WriteLine();
         Console.WriteLine("Pressione qualquer tecla...");
         Console.ReadKey();
+    }
+
+    public void DadosParaCadastroCliente()
+    {
+        Console.WriteLine("===== CLIENTE =====");
+        Console.Write("Nome: ");
+        string nome = Console.ReadLine();
+        Console.Write("CPF: ");
+        string cpf = Console.ReadLine();
+
+        if (string.IsNullOrWhiteSpace(nome) || string.IsNullOrWhiteSpace(cpf))
+        {
+            Console.WriteLine("Nome e CPF são obrigatórios");
+            return;
+        }
+
+        _biblioteca.RegistrarCliente(nome, cpf);
+        Console.WriteLine("Cliente cadastrado com sucesso.");
+    }
+
+    public void DadosParaCadastroLivro()
+    {
+        Console.WriteLine("===== LIVRO =====");
+        Console.Write("Nome: ");
+        string titulo = Console.ReadLine();
+        Console.Write("Autor: ");
+        string autor = Console.ReadLine();
+        Console.Write("Quantidade: ");
+
+        if (!int.TryParse(Console.ReadLine(), out int quantidade) || quantidade <= 0)
+        {
+            Console.WriteLine("A quantidade deve ser número maior que zero.");
+            return;
+        }
+            
+        if (string.IsNullOrWhiteSpace(titulo) || string.IsNullOrWhiteSpace(autor))
+        {
+            Console.WriteLine("Titulo e autor são obrigatórios");
+            return;
+        }
+
+        _biblioteca.RegistrarLivro(titulo, autor, quantidade);
+        Console.WriteLine("Livro cadastrado com sucesso...");
     }
 }

@@ -11,6 +11,8 @@ internal class Biblioteca : IBibliotecaService
     private readonly List<Emprestimo> _emprestimos = new();
 
     private int _proximoEmprestimoId = 1;
+    private int _proximoClienteId = 1;
+    private int _proximoLivroId = 1;
 
     public void AdicionarLivro(Livro livro)
     {
@@ -20,6 +22,35 @@ internal class Biblioteca : IBibliotecaService
     public void CadastrarCliente(Cliente cliente)
     {
         _clientes.Add(cliente);
+    }
+
+    public void RegistrarCliente(string nome, string cpf)
+    {
+        bool cpfDuplicado = _clientes.Any(c => c.Cpf == cpf);
+
+        if (cpfDuplicado)
+            throw new InvalidOperationException("Cliente já cadastrado");
+
+        int id = _proximoClienteId++;
+
+        Cliente cliente = new Cliente(id, nome, cpf);
+        _clientes.Add(cliente);
+    }
+
+    public void RegistrarLivro(string titulo, string autor, int quantidade)
+    {
+        titulo = titulo.Trim();
+        autor = autor.Trim();
+
+        bool tituloDuplicado = _livros.Any(livro => livro.Titulo.Equals(titulo, StringComparison.OrdinalIgnoreCase) &&
+        livro.Autor.Equals(autor, StringComparison.OrdinalIgnoreCase));
+
+        if (tituloDuplicado)
+            throw new InvalidOperationException("Livro já cadastrado");
+
+
+        Livro livro = new Livro(_proximoLivroId++, titulo, autor, quantidade);
+        _livros.Add(livro);
     }
 
     public IReadOnlyCollection<Livro> Livros => _livros;

@@ -1,38 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\ConsoleApp1\\",
+  "WorkspaceRootPath": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\biblioteca-console\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|c:\\users\\feeve\\onedrive\\\u00E1rea de trabalho\\dev\\projetos\\bibliotecaapp\\consoleapp1\\entities\\biblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|c:\\users\\feeve\\onedrive\\\u00E1rea de trabalho\\dev\\projetos\\bibliotecaapp\\biblioteca-console\\entities\\biblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|solutionrelative:entities\\biblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|c:\\users\\feeve\\onedrive\\\u00E1rea de trabalho\\dev\\projetos\\bibliotecaapp\\consoleapp1\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|solutionrelative:entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|c:\\users\\feeve\\onedrive\\\u00E1rea de trabalho\\dev\\projetos\\bibliotecaapp\\consoleapp1\\entities\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|solutionrelative:entities\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|c:\\users\\feeve\\onedrive\\\u00E1rea de trabalho\\dev\\projetos\\bibliotecaapp\\consoleapp1\\entities\\ibiblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|solutionrelative:entities\\ibiblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|c:\\users\\feeve\\onedrive\\\u00E1rea de trabalho\\dev\\projetos\\bibliotecaapp\\consoleapp1\\entities\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|solutionrelative:entities\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|c:\\users\\feeve\\onedrive\\\u00E1rea de trabalho\\dev\\projetos\\bibliotecaapp\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|c:\\users\\feeve\\onedrive\\\u00E1rea de trabalho\\dev\\projetos\\bibliotecaapp\\consoleapp1\\entities\\appmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|c:\\users\\feeve\\onedrive\\\u00E1rea de trabalho\\dev\\projetos\\bibliotecaapp\\biblioteca-console\\entities\\appmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|solutionrelative:entities\\appmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\ConsoleApp1\\Entities\\ControleDeLivros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Entities\\ControleDeLivros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|c:\\users\\feeve\\onedrive\\\u00E1rea de trabalho\\dev\\projetos\\bibliotecaapp\\biblioteca-console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|c:\\users\\feeve\\onedrive\\\u00E1rea de trabalho\\dev\\projetos\\bibliotecaapp\\biblioteca-console\\entities\\ibiblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|solutionrelative:entities\\ibiblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|c:\\users\\feeve\\onedrive\\\u00E1rea de trabalho\\dev\\projetos\\bibliotecaapp\\biblioteca-console\\entities\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|solutionrelative:entities\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|c:\\users\\feeve\\onedrive\\\u00E1rea de trabalho\\dev\\projetos\\bibliotecaapp\\biblioteca-console\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|solutionrelative:entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|c:\\users\\feeve\\onedrive\\\u00E1rea de trabalho\\dev\\projetos\\bibliotecaapp\\biblioteca-console\\entities\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|solutionrelative:entities\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\ConsoleApp1\\Entities\\ControleDeLivros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -60,11 +59,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Biblioteca.cs",
-              "DocumentMoniker": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\ConsoleApp1\\Entities\\Biblioteca.cs",
+              "DocumentMoniker": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\biblioteca-console\\Entities\\Biblioteca.cs",
               "RelativeDocumentMoniker": "Entities\\Biblioteca.cs",
-              "ToolTip": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\ConsoleApp1\\Entities\\Biblioteca.cs",
+              "ToolTip": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\biblioteca-console\\Entities\\Biblioteca.cs",
               "RelativeToolTip": "Entities\\Biblioteca.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwCMAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-22T21:54:29.91Z",
               "EditorCaption": ""
@@ -73,47 +72,48 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "IBiblioteca.cs",
-              "DocumentMoniker": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\ConsoleApp1\\Entities\\IBiblioteca.cs",
+              "DocumentMoniker": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\biblioteca-console\\Entities\\IBiblioteca.cs",
               "RelativeDocumentMoniker": "Entities\\IBiblioteca.cs",
-              "ToolTip": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\ConsoleApp1\\Entities\\IBiblioteca.cs",
+              "ToolTip": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\biblioteca-console\\Entities\\IBiblioteca.cs",
               "RelativeToolTip": "Entities\\IBiblioteca.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-22T21:53:35.727Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "AppMenu.cs",
-              "DocumentMoniker": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\ConsoleApp1\\Entities\\AppMenu.cs",
+              "DocumentMoniker": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\biblioteca-console\\Entities\\AppMenu.cs",
               "RelativeDocumentMoniker": "Entities\\AppMenu.cs",
-              "ToolTip": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\ConsoleApp1\\Entities\\AppMenu.cs",
+              "ToolTip": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\biblioteca-console\\Entities\\AppMenu.cs",
               "RelativeToolTip": "Entities\\AppMenu.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAiwJEAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAL0AAAAAAAAAAADwv9AAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T19:40:39.611Z"
+              "WhenOpened": "2026-06-21T19:40:39.611Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Emprestimo.cs",
-              "DocumentMoniker": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\ConsoleApp1\\Entities\\Emprestimo.cs",
+              "DocumentMoniker": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\biblioteca-console\\Entities\\Emprestimo.cs",
               "RelativeDocumentMoniker": "Entities\\Emprestimo.cs",
-              "ToolTip": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\ConsoleApp1\\Entities\\Emprestimo.cs",
+              "ToolTip": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\biblioteca-console\\Entities\\Emprestimo.cs",
               "RelativeToolTip": "Entities\\Emprestimo.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAywB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-17T00:25:01.643Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\ConsoleApp1\\Entities\\Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\biblioteca-console\\Entities\\Cliente.cs",
               "RelativeDocumentMoniker": "Entities\\Cliente.cs",
-              "ToolTip": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\ConsoleApp1\\Entities\\Cliente.cs",
+              "ToolTip": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\biblioteca-console\\Entities\\Cliente.cs",
               "RelativeToolTip": "Entities\\Cliente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -125,35 +125,34 @@
               "DocumentIndex": 7,
               "Title": "ControleDeLivros.cs",
               "DocumentMoniker": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\ConsoleApp1\\Entities\\ControleDeLivros.cs",
-              "RelativeDocumentMoniker": "Entities\\ControleDeLivros.cs",
+              "RelativeDocumentMoniker": "..\\ConsoleApp1\\Entities\\ControleDeLivros.cs",
               "ToolTip": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\ConsoleApp1\\Entities\\ControleDeLivros.cs",
-              "RelativeToolTip": "Entities\\ControleDeLivros.cs",
+              "RelativeToolTip": "..\\ConsoleApp1\\Entities\\ControleDeLivros.cs",
               "ViewState": "AgIAAEMAAAAAAAAAAAAcwGYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-16T20:22:40.173Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Livro.cs",
-              "DocumentMoniker": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\ConsoleApp1\\Entities\\Livro.cs",
+              "DocumentMoniker": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\biblioteca-console\\Entities\\Livro.cs",
               "RelativeDocumentMoniker": "Entities\\Livro.cs",
-              "ToolTip": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\ConsoleApp1\\Entities\\Livro.cs",
+              "ToolTip": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\biblioteca-console\\Entities\\Livro.cs",
               "RelativeToolTip": "Entities\\Livro.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAywC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T20:13:30.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T20:13:30.955Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\ConsoleApp1\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\biblioteca-console\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\feeve\\OneDrive\\\u00C1rea de Trabalho\\dev\\Projetos\\BibliotecaApp\\biblioteca-console\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-16T19:54:49.085Z",
               "EditorCaption": ""
