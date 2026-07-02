@@ -31,9 +31,7 @@ internal class Biblioteca : IBibliotecaService
         if (cpfDuplicado)
             throw new InvalidOperationException("Cliente já cadastrado");
 
-        int id = _proximoClienteId++;
-
-        Cliente cliente = new Cliente(id, nome, cpf);
+        Cliente cliente = new Cliente(_proximoClienteId++, nome, cpf);
         _clientes.Add(cliente);
     }
 
@@ -47,7 +45,6 @@ internal class Biblioteca : IBibliotecaService
 
         if (tituloDuplicado)
             throw new InvalidOperationException("Livro já cadastrado");
-
 
         Livro livro = new Livro(_proximoLivroId++, titulo, autor, quantidade);
         _livros.Add(livro);

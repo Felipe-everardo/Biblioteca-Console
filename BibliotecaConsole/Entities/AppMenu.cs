@@ -121,7 +121,7 @@ internal class AppMenu
 
         foreach (var cliente in _biblioteca.Clientes)
         {
-            Console.WriteLine(cliente);
+            Console.WriteLine($"ID: {cliente.Id}, Cliente: {cliente.Nome}");
         }
     }
 
@@ -206,7 +206,7 @@ internal class AppMenu
 
         if (!int.TryParse(Console.ReadLine(), out int quantidade) || quantidade <= 0)
         {
-            Console.WriteLine("A quantidade deve ser número maior que zero.");
+            Console.WriteLine("A quantidade deve ser um número maior que zero.");
             return;
         }
             
