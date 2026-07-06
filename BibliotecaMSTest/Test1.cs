@@ -1,4 +1,4 @@
-﻿namespace BibliotecaUnitTest;
+﻿namespace BibliotecaMSTest;
 
 [TestClass]
 public sealed class Test1

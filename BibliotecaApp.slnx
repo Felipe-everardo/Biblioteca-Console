@@ -1,4 +1,4 @@
 <Solution>
   <Project Path="BibliotecaConsole/biblioteca-console.csproj" />
-  <Project Path="BibliotecaUnitTest/BibliotecaUnitTest.csproj" />
+  <Project Path="BibliotecaMSTest/BibliotecaMSTest.csproj" Id="6e5ed080-2c11-4022-a2fd-a33d46455388" />
 </Solution>

@@ -13,6 +13,5 @@ class Program
 
         menuDaAplicacao.Iniciar();
     }
-     
 }
 

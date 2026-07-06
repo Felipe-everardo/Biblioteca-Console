@@ -40,7 +40,8 @@ internal class Biblioteca : IBibliotecaService
         titulo = titulo.Trim();
         autor = autor.Trim();
 
-        bool tituloDuplicado = _livros.Any(livro => livro.Titulo.Equals(titulo, StringComparison.OrdinalIgnoreCase) &&
+        bool tituloDuplicado = _livros.Any(livro => 
+        livro.Titulo.Equals(titulo, StringComparison.OrdinalIgnoreCase) &&
         livro.Autor.Equals(autor, StringComparison.OrdinalIgnoreCase));
 
         if (tituloDuplicado)

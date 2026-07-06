@@ -55,3 +55,6 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Ignorar pasta .vs do Visual Studio em qualquer nivel
+.vs/
