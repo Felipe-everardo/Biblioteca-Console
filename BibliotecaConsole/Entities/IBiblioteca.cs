@@ -2,7 +2,7 @@ using ConsoleApp1.Entities;
 
 namespace ConsoleApp1;
 
-internal interface IBibliotecaService
+public interface IBibliotecaService
 {
     IReadOnlyCollection<Livro> Livros { get; }
     IReadOnlyCollection<Cliente> Clientes { get; }

@@ -2,7 +2,7 @@ using ConsoleApp1.Entities;
 
 namespace ConsoleApp1;
 
-internal class AppMenu
+public class AppMenu
 {
     private readonly IBibliotecaService _biblioteca;
 

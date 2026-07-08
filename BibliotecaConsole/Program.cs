@@ -1,7 +1,7 @@
 ﻿using ConsoleApp1.Entities;
 namespace ConsoleApp1;
 
-class Program
+public class Program
 {
     static void Main(string[] args)
     {

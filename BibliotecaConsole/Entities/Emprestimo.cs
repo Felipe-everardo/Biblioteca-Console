@@ -1,6 +1,6 @@
 using ConsoleApp1.Entities;
 
-internal class Emprestimo
+public class Emprestimo
 {
     public int Id { get; }
     public Cliente Cliente { get; }

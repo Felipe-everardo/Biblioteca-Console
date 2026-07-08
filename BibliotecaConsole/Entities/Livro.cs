@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleApp1.Entities;
 
-internal class Livro
+public class Livro
 {
     public int Id { get; }
     public string Titulo { get; }
@@ -19,7 +19,7 @@ internal class Livro
         if (string.IsNullOrWhiteSpace(autor))
             throw new ArgumentException("Autor inválido.");
 
-        if (quantidadeDisponivel < 0)
+        if (quantidadeDisponivel <= 0)
             throw new ArgumentException("Quantidade inválida.");
 
         Id = id;

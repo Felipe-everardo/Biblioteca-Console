@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleApp1.Entities;
 
-internal class Biblioteca : IBibliotecaService
+public class Biblioteca : IBibliotecaService
 {
     private readonly List<Livro> _livros = new();
     private readonly List<Cliente> _clientes = new();

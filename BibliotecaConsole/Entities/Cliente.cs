@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleApp1.Entities;
 
-internal class Cliente
+public class Cliente
 {
     public int Id { get; }
     public string Nome { get; }
