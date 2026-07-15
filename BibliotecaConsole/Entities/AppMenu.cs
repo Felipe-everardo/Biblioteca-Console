@@ -147,10 +147,16 @@ public class AppMenu
     public void RealizarEmprestimo()
     {
         Console.Write("Id do cliente: ");
-        int clienteId = int.Parse(Console.ReadLine());
+        if (!int.TryParse(Console.ReadLine(), out int clienteId))
+        {
+            throw new ArgumentException("Id do cliente inválido.");
+        }
 
         Console.Write("Id do livro: ");
-        int livroId = int.Parse(Console.ReadLine());
+        if (!int.TryParse(Console.ReadLine(), out int livroId))
+        {
+            throw new ArgumentException("Id do livro inválido.");
+        }
 
         _biblioteca.RealizarEmprestimo(
             clienteId,
@@ -162,7 +168,10 @@ public class AppMenu
     public void RegistrarDevolucao()
     {
         Console.Write("Id do empréstimo: ");
-        int emprestimoId = int.Parse(Console.ReadLine());
+        if (!int.TryParse(Console.ReadLine(), out int emprestimoId))
+        {
+            throw new ArgumentException("Id do empréstimo inválido.");
+        }
 
         _biblioteca.RegistrarDevolucao(
             emprestimoId);
@@ -191,7 +200,7 @@ public class AppMenu
             return;
         }
 
-        _biblioteca.RegistrarCliente(nome, cpf);
+        _biblioteca.RegistrarCliente(nome.Trim(), cpf.Trim());
         Console.WriteLine("Cliente cadastrado com sucesso.");
     }
 
@@ -216,7 +225,7 @@ public class AppMenu
             return;
         }
 
-        _biblioteca.RegistrarLivro(titulo, autor, quantidade);
+        _biblioteca.RegistrarLivro(titulo.Trim(), autor.Trim(), quantidade);
         Console.WriteLine("Livro cadastrado com sucesso...");
     }
 }
