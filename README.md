@@ -126,18 +126,6 @@ Falhas: 0
 - Uso de interface para começar a praticar desacoplamento.
 - Código fácil de evoluir para novos exercícios, como persistência, repositórios ou API.
 
-## Próximos passos sugeridos
-
-- Melhorar as leituras numéricas do console usando `TryParse` em todos os fluxos.
-- Normalizar CPF com `Trim()` antes de verificar duplicidade.
-- Criar testes para devolução de livros.
-- Criar testes para limite de empréstimos ativos.
-- Criar testes para tentativa de empréstimo sem estoque.
-- Separar mensagens de console das regras de negócio com mais clareza.
-- Corrigir avisos de nulidade apontados pelo compilador.
-- Evoluir o projeto para usar persistência em arquivo JSON ou banco de dados.
-- Criar uma API ASP.NET Core usando a mesma regra de domínio.
-
 ## Status
 
 Projeto em evolução, criado com foco em estudo e prática. A ideia principal é melhorar o desenho do código aos poucos, sempre usando testes para dar segurança nas mudanças.
