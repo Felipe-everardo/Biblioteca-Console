@@ -90,7 +90,6 @@ public sealed class BibliotecaTests
     }
 
     [TestMethod]
-
     public void RealizarEmprestimo_ComClienteEQuantidadeDisponivel_DeveRegistrarEmprestimo()
     {
         _biblioteca.RegistrarCliente("Maria", "123");
@@ -98,5 +97,26 @@ public sealed class BibliotecaTests
         _biblioteca.RealizarEmprestimo(1, 1);
         Assert.AreEqual(1, _biblioteca.Emprestimos.Count());
         Assert.AreEqual(4, _biblioteca.Livros.First().QuantidadeDisponivel);
+    }
+
+    [TestMethod]
+    public void RealizarEmprestimo_ComClienteInexistente_DeveLancarInvalidOperationException()
+    {
+        _biblioteca.RegistrarLivro("Livro A", "Autor A", 5);
+        Assert.Throws<InvalidOperationException>(() => _biblioteca.RealizarEmprestimo(1, 1));
+    }
+
+    [TestMethod]
+    public void RealizarEmprestimo_ComLivroInexistente_DeveLancarInvalidOperationException()
+    {
+        _biblioteca.RegistrarCliente("Maria", "123");
+
+        Assert.Throws<InvalidOperationException>(() => _biblioteca.RealizarEmprestimo(1, 99));
+    }
+
+    [TestMethod]
+    public void RegistrarDevolucao_ComEmprestimoInexistente_DeveLancarInvalidOperationException()
+    {
+        Assert.Throws<InvalidOperationException>(() => _biblioteca.RegistrarDevolucao(99));
     }
 }

@@ -14,15 +14,6 @@ public class Biblioteca : IBibliotecaService
     private int _proximoClienteId = 1;
     private int _proximoLivroId = 1;
 
-    public void AdicionarLivro(Livro livro)
-    {
-        _livros.Add(livro);
-    }
-
-    public void CadastrarCliente(Cliente cliente)
-    {
-        _clientes.Add(cliente);
-    }
 
     public void RegistrarCliente(string nome, string cpf)
     {
@@ -51,15 +42,45 @@ public class Biblioteca : IBibliotecaService
         _livros.Add(livro);
     }
 
+    private Cliente BuscarClientePorId(int clienteId)
+    {
+        Cliente cliente = _clientes.FirstOrDefault(c => c.Id == clienteId);
+
+        if (cliente == null)
+            throw new InvalidOperationException("Cliente não encontrado");
+
+        return cliente;
+    }
+
+    private Livro BuscarLivroPorId(int livroId)
+    {
+        Livro livro = _livros.FirstOrDefault(l => l.Id == livroId);
+
+        if (livro == null)
+            throw new InvalidOperationException("Livro não encontrado");
+
+        return livro;
+    }
+
+    private Emprestimo BuscarEmprestimoPorId(int emprestimoId)
+    {
+        Emprestimo? emprestimo = _emprestimos.FirstOrDefault(e => e.Id == emprestimoId);
+
+        if (emprestimo is null)
+            throw new InvalidOperationException("Empréstimo não encontrado.");
+
+        return emprestimo;
+    }
+
+
     public IReadOnlyCollection<Livro> Livros => _livros;
     public IReadOnlyCollection<Cliente> Clientes => _clientes;
     public IReadOnlyCollection<Emprestimo> Emprestimos => _emprestimos;
 
     public void RealizarEmprestimo(int clienteId, int livroId)
     {
-        Cliente cliente = _clientes.First(c => c.Id == clienteId);
-
-        Livro livro = _livros.First(l => l.Id == livroId);
+        Cliente cliente = BuscarClientePorId(clienteId);
+        Livro livro = BuscarLivroPorId(livroId);
 
         int emprestimosAtivos = _emprestimos.Count(e => e.Cliente.Id == clienteId && !e.FoiDevolvido());
 
@@ -76,7 +97,7 @@ public class Biblioteca : IBibliotecaService
 
     public void RegistrarDevolucao(int emprestimoId)
     {
-        Emprestimo emprestimo = _emprestimos.First(e => e.Id == emprestimoId);
+        Emprestimo emprestimo = BuscarEmprestimoPorId(emprestimoId);
 
         emprestimo.RegistrarDevolucao();
         emprestimo.Livro.Devolver();

@@ -56,7 +56,7 @@ public class AppMenu
                         break;
 
                     case 4:
-                        RealizarEmprestimo();
+                        RegistrarEmprestimo();
                         break;
 
                     case 5:
@@ -88,23 +88,7 @@ public class AppMenu
             Pausar();
         }
     }
-    public void PopularDadosIniciais()
-    {
-        _biblioteca.AdicionarLivro(
-            new Livro(1, "1984", "George Orwell", 5));
 
-        _biblioteca.AdicionarLivro(
-            new Livro(2, "Dom Quixote", "Miguel de Cervantes", 3));
-
-        _biblioteca.AdicionarLivro(
-            new Livro(3, "Clean Code", "Robert C. Martin", 2));
-
-        _biblioteca.CadastrarCliente(
-            new Cliente(1, "Felipe", "11111111111"));
-
-        _biblioteca.CadastrarCliente(
-            new Cliente(2, "Maria", "22222222222"));
-    }
     public void ListarLivros()
     {
         Console.WriteLine("===== LIVROS =====");
@@ -144,9 +128,10 @@ public class AppMenu
         }
     }
 
-    public void RealizarEmprestimo()
+    public void RegistrarEmprestimo()
     {
         Console.Write("Id do cliente: ");
+
         if (!int.TryParse(Console.ReadLine(), out int clienteId))
         {
             throw new ArgumentException("Id do cliente inválido.");
@@ -158,9 +143,7 @@ public class AppMenu
             throw new ArgumentException("Id do livro inválido.");
         }
 
-        _biblioteca.RealizarEmprestimo(
-            clienteId,
-            livroId);
+        _biblioteca.RealizarEmprestimo(clienteId, livroId);
 
         Console.WriteLine("Empréstimo realizado com sucesso.");
     }

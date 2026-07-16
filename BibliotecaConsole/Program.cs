@@ -1,4 +1,5 @@
-﻿using ConsoleApp1.Entities;
+﻿using biblioteca_console.Data;
+using ConsoleApp1.Entities;
 namespace ConsoleApp1;
 
 public class Program
@@ -9,9 +10,11 @@ public class Program
 
         AppMenu menuDaAplicacao = new AppMenu(minhaBiblioteca);
 
-        menuDaAplicacao.PopularDadosIniciais();
+        DadosIniciais dadosIniciais = new DadosIniciais();
+
+        dadosIniciais.PopularDadosIniciais(minhaBiblioteca);
 
         menuDaAplicacao.Iniciar();
     }
 }
-
+  

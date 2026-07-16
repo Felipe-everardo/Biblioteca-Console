@@ -8,8 +8,6 @@ public interface IBibliotecaService
     IReadOnlyCollection<Cliente> Clientes { get; }
     IReadOnlyCollection<Emprestimo> Emprestimos { get; }
 
-    void AdicionarLivro(Livro livro);
-    void CadastrarCliente(Cliente cliente);
     void RealizarEmprestimo(int clienteId, int livroId);
     void RegistrarDevolucao(int emprestimoId);
     void RegistrarCliente(string nome, string cpf);
